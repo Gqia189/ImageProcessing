@@ -1,6 +1,6 @@
 # Matlab-imagaing-the-universe
 This project centres on the image processing of a set of raw image data from Hubble telescope. A example of a set of image is shown below:
-
+![ScreenShot](https://)
 Each image represents the same region of space but has been taken using a different light filter (the filters allow Hubble to record the photons emitted for a particular band of light, centred on a specified wave length).
 Some of the images have poor contrast so we will “normalise” them to make full use of the uint8 range of values (0 to 255). After normalising an image the specified background colour will be set to 0 and the peak brightness will be set to 255.
 An example of normalising the above images is shown below. The exact result obtained depends on what values were selected to represent the background (dark value) and peak (bright value) for each image.
