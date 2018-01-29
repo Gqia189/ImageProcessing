@@ -16,3 +16,13 @@ Each image represents a colour band, centred on a particular wavelength. We can 
 Note that not all images will benefit from using true colour. For example some wave lengths are outside the range of human vision (roughly speaking the visible spectrum corresponds to wave lengths in the 400 to 700 nanometre range). We can still visualise features outside the visible range by manually assigning a visible colour to any images that used filters outside the visible spectrum. We can also observe features related to a particular wavelength more distinctly if we colour wave lengths that are close together using very different colours.
 
 The separate coloured images can be combined into a single image representing a region of space. Here is a composite created from the four separate colour images from the previous page.
+
+![ScreenShot](https://github.com/garebear1998/Matlab-imagaing-the-universe/blob/master/Output/combined.jpg)
+
+This image is then rotated:
+
+![ScreenShot](https://github.com/garebear1998/Matlab-imagaing-the-universe/blob/master/Output/rotated.jpg)
+
+Then cropped:
+
+![ScreenShot](https://github.com/garebear1998/Matlab-imagaing-the-universe/blob/master/Output/crop.jpg)
